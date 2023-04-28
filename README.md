@@ -30,11 +30,13 @@ This project compares the performance of a deep learning classifier (Convolution
 
 ## Results
 
-- CNN model: 50% accuracy, 25% precision, and 50% recall.
-- Traditional machine learning models:
-  - Logistic Regression: 74% accuracy, 75% precision, and 76% F1 score.
-  - SVM and Decision Tree: slightly lower performance than Logistic Regression.
-  - Random Forest: lowest performance among traditional models.
+| Model               | Accuracy | Precision | Recall | F1 Score |
+|---------------------|----------|-----------|--------|----------|
+| CNN                 | 50%      | 25%       | 50%    | 34%      |
+| Logistic Regression | 74%      | 75%       | 74%    | 76%      |
+| SVM                 | 70%      | 71%       | 70%    | 72%      |
+| Decision Tree       | 67%      | 68%       | 67%    | 67%      |
+| Random Forest       | 65%      | 67%       | 65%    | 63%      |
 
 ## Conclusion
 
